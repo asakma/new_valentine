@@ -1,8 +1,3 @@
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Love');
-});
-
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually

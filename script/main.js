@@ -303,3 +303,8 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+
+$(document).on('click', function(){
+    document.getElementById("my_audio").play();
+    console.log('Love');
+});
